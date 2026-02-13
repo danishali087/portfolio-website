@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish Ali | Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text">JD</span>
+                <span class="brand-sub">Developer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="intro-text">
+                        <h6 class="text-primary mb-3">B.Tech Computer Science & Engineering • 2022</h6>
+                        <h1 class="display-4 fw-bold mb-3">Full-Stack Developer focused on building practical solutions</h1>
+                        <p class="lead mb-4">I build functional web applications with clean backend logic, efficient databases, and responsive interfaces. Every project is a real system that works.</p>
+                        <div class="d-flex gap-3">
+                            <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-content">
+                            <pre><code>// Current Focus
+const skills = {
+  backend: ['Node.js', 'Express', 'Python'],
+  database: ['PostgreSQL', 'Data Modeling'],
+  frontend: ['Angular', 'JavaScript']
+};
+
+// Building: Real CRUD systems
+// With: Production-ready logic</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title mb-5">About Me</h2>
+                    <div class="about-content">
+                        <p class="mb-4">I'm a Computer Science graduate who focuses on building things that actually work. I believe in clean code, solid database design, and solving real problems.</p>
+                        
+                        <div class="developer-mindset mb-5">
+                            <h4 class="h5 mb-3">Practical Developer Mindset:</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mindset-item mb-3">
+                                        <i class="fas fa-database text-primary me-2"></i>
+                                        <span>Database-first thinking</span>
+                                    </div>
+                                    <div class="mindset-item mb-3">
+                                        <i class="fas fa-code text-primary me-2"></i>
+                                        <span>Production-ready logic</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mindset-item mb-3">
+                                        <i class="fas fa-tools text-primary me-2"></i>
+                                        <span>Tool-agnostic problem solving</span>
+                                    </div>
+                                    <div class="mindset-item mb-3">
+                                        <i class="fas fa-sitemap text-primary me-2"></i>
+                                        <span>System architecture focus</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education-card p-4 mb-4">
+                            <h5 class="mb-2"><i class="fas fa-graduation-cap me-2"></i>Education</h5>
+                            <p class="mb-1"><strong>B.Tech in Computer Science & Engineering</strong></p>
+                            <p class="text-muted">Graduated 2022 • 7.5/10.0 CGPA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title mb-5 text-center">Technical Skills</h2>
+            
+            <div class="row g-4">
+                <!-- Frontend -->
+                <div class="col-lg-4">
+                    <div class="skill-category card h-100">
+                        <div class="card-body">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-paint-brush fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="card-title mb-4">Frontend</h4>
+                            <div class="skill-list">
+                                <div class="skill-item mb-3">
+                                    <span>HTML5</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>CSS3</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Angular</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Bootstrap</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="col-lg-4">
+                    <div class="skill-category card h-100">
+                        <div class="card-body">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-server fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="card-title mb-4">Backend</h4>
+                            <div class="skill-list">
+                                <div class="skill-item mb-3">
+                                    <span>Node.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Express.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>REST APIs</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 87%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="col-lg-4">
+                    <div class="skill-category card h-100">
+                        <div class="card-body">
+                            <div class="skill-icon mb-3">
+                                <i class="fas fa-database fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="card-title mb-4">Database & Tools</h4>
+                            <div class="skill-list">
+                                <div class="skill-item mb-3">
+                                    <span>PostgreSQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 86%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>JSON Data Handling</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Git Version Control</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 89%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item mb-3">
+                                    <span>Web Scraping</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 84%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title mb-5 text-center">Real Projects</h2>
+            
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-lg-6">
+                    <div class="project-card card h-100">
+                        <div class="card-body">
+                            <div class="project-badge mb-3">
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-secondary">Web Scraping</span>
+                                <span class="badge bg-info">Data Processing</span>
+                            </div>
+                            <h3 class="card-title mb-3">E-Commerce Review Scraping System</h3>
+                            <p class="card-text mb-4">Python-based web scraping system to extract and structure baby diaper product reviews from major e-commerce platforms.</p>
+                            
+                            <div class="project-details mb-4">
+                                <h6 class="mb-2"><strong>Websites Scraped:</strong></h6>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="site-tag">Flipkart</span>
+                                    <span class="site-tag">Amazon</span>
+                                    <span class="site-tag">FirstCry</span>
+                                </div>
+                                
+                                <h6 class="mb-2"><strong>Data Extracted:</strong></h6>
+                                <ul class="mb-3">
+                                    <li>Product ID & Country</li>
+                                    <li>Review ID, Title, Body</li>
+                                    <li>Review Rating (1-5)</li>
+                                    <li>Review Date & Year</li>
+                                </ul>
+                                
+                                <h6 class="mb-2"><strong>Key Implementation:</strong></h6>
+                                <ul>
+                                    <li>Handled pagination and dynamic content</li>
+                                    <li>Structured and cleaned large-scale data</li>
+                                    <li>Production-style scraping logic</li>
+                                    <li>Data prepared for analysis and storage</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-6">
+                    <div class="project-card card h-100">
+                        <div class="card-body">
+                            <div class="project-badge mb-3">
+                                <span class="badge bg-primary">Full-Stack</span>
+                                <span class="badge bg-success">PostgreSQL</span>
+                                <span class="badge bg-warning">CRUD</span>
+                            </div>
+                            <h3 class="card-title mb-3">Full-Stack CRUD with Soft Delete</h3>
+                            <p class="card-text mb-4">Complete CRUD application with soft delete functionality where deleted records are recoverable, not permanently removed.</p>
+                            
+                            <div class="project-details mb-4">
+                                <h6 class="mb-2"><strong>Tech Stack:</strong></h6>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="tech-tag">HTML/CSS</span>
+                                    <span class="tech-tag">Bootstrap</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express.js</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                
+                                <h6 class="mb-2"><strong>Core Features:</strong></h6>
+                                <ul class="mb-3">
+                                    <li>Full Create, Read, Update, Delete operations</li>
+                                    <li>Soft delete mechanism with recovery option</li>
+                                    <li>Backend validation and error handling</li>
+                                    <li>Database integrity maintained</li>
+                                </ul>
+                                
+                                <h6 class="mb-2"><strong>Business Logic:</strong></h6>
+                                <ul>
+                                    <li>Real-world data recovery requirements</li>
+                                    <li>Production-grade validation</li>
+                                    <li>Efficient database queries</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 & 4 -->
+                <div class="col-lg-6">
+                    <div class="project-card card h-100">
+                        <div class="card-body">
+                            <div class="project-badge mb-3">
+                                <span class="badge bg-primary">Angular</span>
+                                <span class="badge bg-info">JSON</span>
+                                <span class="badge bg-success">Responsive</span>
+                            </div>
+                            <h3 class="card-title mb-3">Contact Manager Application</h3>
+                            <p class="card-text mb-4">Angular-based contact management system with clean UI for managing contacts efficiently.</p>
+                            
+                            <div class="project-details">
+                                <h6 class="mb-2"><strong>Tech Used:</strong></h6>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="tech-tag">Angular</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">Bootstrap</span>
+                                    <span class="tech-tag">JSON Data</span>
+                                </div>
+                                
+                                <h6 class="mb-2"><strong>Key Features:</strong></h6>
+                                <ul>
+                                    <li>Component-based Angular architecture</li>
+                                    <li>Add, edit, delete, and view contacts</li>
+                                    <li>Clean form validation</li>
+                                    <li>Responsive mobile-friendly UI</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="project-card card h-100">
+                        <div class="card-body">
+                            <div class="project-badge mb-3">
+                                <span class="badge bg-primary">Static Website</span>
+                                <span class="badge bg-success">Performance</span>
+                            </div>
+                            <h3 class="card-title mb-3">Static Business Website</h3>
+                            <p class="card-text mb-4">Responsive static website focused on performance, clean layout, and optimal user experience.</p>
+                            
+                            <div class="project-details">
+                                <h6 class="mb-2"><strong>Tech Used:</strong></h6>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                                
+                                <h6 class="mb-2"><strong>Focus Areas:</strong></h6>
+                                <ul>
+                                    <li>Mobile-first responsive design</li>
+                                    <li>Fast loading performance</li>
+                                    <li>Clean typography and layout</li>
+                                    <li>Cross-browser compatibility</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title mb-5 text-center">Project-Based Learning Journey</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h4>Backend System Development</h4>
+                        <p>Built multiple Node.js/Express backends with PostgreSQL. Focused on:</p>
+                        <ul>
+                            <li>REST API design patterns</li>
+                            <li>Database schema optimization</li>
+                            <li>Authentication & authorization</li>
+                            <li>Error handling middleware</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022-2023</div>
+                    <div class="timeline-content">
+                        <h4>Data Processing & Web Scraping</h4>
+                        <p>Developed Python-based scraping systems:</p>
+                        <ul>
+                            <li>Real e-commerce data extraction</li>
+                            <li>Large-scale data cleaning</li>
+                            <li>Structured data storage design</li>
+                            <li>Handling dynamic web content</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h4>Frontend Framework Mastery</h4>
+                        <p>Built applications with Angular and modern JavaScript:</p>
+                        <ul>
+                            <li>Component-based architecture</li>
+                            <li>State management patterns</li>
+                            <li>Responsive design implementation</li>
+                            <li>Form validation systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title mb-5 text-center">Get in Touch</h2>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-info p-4 h-100">
+                                <h4 class="mb-4">Contact Information</h4>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-envelope me-3 text-primary"></i>
+                                    <span>danishali2cbsa@gmail.com</span>
+                                </div>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-phone me-3 text-primary"></i>
+                                    <span>+971 56 945 8846</span>
+                                </div>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-map-marker-alt me-3 text-primary"></i>
+                                    <span>Dubai, U.A.E</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-file-pdf me-3 text-primary"></i>
+                                    <a href="asset/Danish_Ali_resume_2026.pdf" target="_blank">Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="contact-form">
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2025 Danish ALi. Built with practical code.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-github"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
